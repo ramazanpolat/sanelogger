@@ -7,7 +7,6 @@ Default python logger is hard to use. So I made my own simple and sane logger.
 
 import sanelogger
 
-
 logger = sanelogger.SaneLogger()
 
 logger.trace("This is a TRACE message")
