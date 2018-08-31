@@ -26,3 +26,6 @@ if __name__ == '__main__':
     log1.pos('This is a positive message')
     log1.neg('This is a negative message')
 ```
+
+
+![output](https://github.com/ramazanpolat/sanelogger/raw/master/sane.PNG)
