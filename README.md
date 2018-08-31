@@ -3,6 +3,36 @@ Sane logger for Python.
 
 Default python logger is hard to use. So I made my own simple and sane logger.
 
+It logs all texts to 'sane.log' file by default.
+
+To disable logging to file, set ``write_to_file`` to ``False``
+
+Log Levels:
+```
+    OFF = 1
+    FATAL = 2
+    ERROR = 4
+    WARN = 8
+    INFO = 16
+    DEBUG = 32
+    TRACE = 64
+    ALL = 64
+```
+# Arguments
+
+``def __init__(self, name="", level="ALL", frmt: str = None, write_to_file=False, out_file=None):``
+
+``name``: Name of the logger
+
+``level``: Logging level 
+
+``frml``: String format to write.
+
+``write_to_file``: Write text to file or not.
+
+``out_file``: Filename to be used if ``write_to_file = True``
+
+
 # Usage
 
 ```python
